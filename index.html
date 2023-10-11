@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 14 Individual</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOREM IPSUM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <!-- Campo de búsqueda visible en dispositivos pequeños -->
+            <form class="d-lg-none me-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                <li class="nav-item ms-lg-5 ">
+                    <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+                </li>
+                <li class="nav-item ms-lg-5">
+                    <a class="nav-link" href="#">Sit</a>
+                </li>
+                <li class="nav-item ms-lg-5">
+                    <a class="nav-link" href="#">Amet</a>
+                </li>
+                <!-- Sección "Opciones" visible en dispositivos pequeños -->
+                <li class="nav-item d-block d-lg-none">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Opciones
+                    </button>
+                    <div class="dropdown-menu list-group" id="list-example" aria-labelledby="dropdownMenuButton">
+                      <a class="list-group-item list-group-item-action" href="#list-item-1">Opción 1</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-2">Opción 2</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-3">Opción 3</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-4">Opción 4</a>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+            
+            <!-- Campo de búsqueda visible en dispositivos grandes -->
+            <form class="d-none d-lg-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<h2 class="text-center mt-3 d-lg-block d-none">Lorem Ipsum...</h2>
+<div class="container d-lg-block d-none">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-content"></div>
+    </div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-4 ms-5 d-lg-block d-none ">
+          <div id="list-example" class="list-group ms-5">
+              <a class="list-group-item list-group-item-action" href="#list-item-1">Opción 1</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2">Opción 2</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-3">Opción 3</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-4">Opción 4</a>
+          </div>
+      </div>
+      
+     <div class="col-12 col-lg-7">
+        <table class="table table-striped ">
+          <tbody class="d-grid gap-3">
+              <tr id="list-item-1">
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, placeat quae dicta quasi ad ipsam corporis maiores</td>
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 d-none d-md-table-cell">error asperiores voluptatum minus beatae vitae iste alias nisi libero aliquid! Perspiciatis, beatae</td>
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 d-none d-lg-table-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim cupiditate delectus</td>
+              </tr>
+              
+              <tr id="list-item-2">
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 ">necessitatibus totam officiis vero rem odit beatae ea temporibus deserunt, suscipit dolor pariatur minus. Exercitationem repudiandae nam maiores.</td>
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 d-none d-md-table-cell">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis doloremque quia dolore eligendi</td>
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 d-none d-lg-table-cell">obcaecati ut dignissimos delectus veritatis blanditiis pariatur rem explicabo officiis vel, qui recusandae vero, quis reprehenderit</td>
+              </tr>
+              
+              <tr id="list-item-3" class=" col-lg-8">
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+                  <td scope="col"class="bg-success p-2 text-dark bg-opacity-10 d-none d-md-table-cell">Vel ipsa necessitatibus modi repellat aperiam! Autem iste quas deserunt. Facere dignissimos minus esse eum? Cupiditate delectus impedit tenetur aperiam iure eveniet</td>
+                  
+              </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+          
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
